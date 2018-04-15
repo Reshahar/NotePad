@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NotePad - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6F4C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/NotePad.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\20160112\NotePad\MyLink.cpp"
+"C:\Users\Administrator\Desktop\20160112\NotePad\NotePadView.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6F4C.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6F5D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/NotePad.pdb" /debug /machine:I386 /out:"Debug/NotePad.exe" /pdbtype:sept 
+.\Debug\FileOper.obj
+.\Debug\MainFrm.obj
+.\Debug\MyLink.obj
+.\Debug\NotePad.obj
+.\Debug\NotePadDoc.obj
+.\Debug\NotePadView.obj
+.\Debug\StdAfx.obj
+.\Debug\NotePad.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6F5D.tmp"
+<h3>Output Window</h3>
+Compiling...
+MyLink.cpp
+C:\Users\Administrator\Desktop\20160112\NotePad\MyLink.cpp(91) : warning C4101: 'tmp' : unreferenced local variable
+C:\Users\Administrator\Desktop\20160112\NotePad\MyLink.cpp(91) : warning C4101: 'i' : unreferenced local variable
+NotePadView.cpp
+Generating Code...
+C:\Users\Administrator\Desktop\20160112\NotePad\MyLink.cpp(171) : warning C4715: 'CMyLink::FindUp' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+NotePad.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
